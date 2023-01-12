@@ -283,6 +283,121 @@
 .icon-upload-cloud-outline {
 }
 
+/* Форма */
+.contact {
+}
+.contact .block__head .block__title {
+    padding-top: 95px;
+}
+.block__title {
+}
+.block__text {
+
+}
+.contact__inner {
+}
+.contacn__icon-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 570px;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+.contact__item {
+    text-align: center;
+    width: 130px;
+}
+.contact__item i {
+    color: #323232;
+    font-size: 21px;
+}
+.icon-phone {
+}
+.contacn__text a {
+    margin-bottom: 12px;
+}
+.contacn__text a {
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.contacn__text a:hover {
+    color: #4b4a4a;
+    text-decoration: underline;
+}
+.icon-location {
+}
+.icon-mail-alt {
+}
+.contact__form {
+    padding-top: 153px;
+    display: flex;
+    flex-direction: column;
+    max-width: 770px;
+    margin: 0 auto;
+}
+.contact__form input {
+    height: 52px;
+    padding: 20px;
+    text-align: center;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+    border: 1px solid #999999;
+}
+.contact__name {
+    margin-bottom: 20px;
+    }
+.contact__email {
+    margin-bottom: 20px;
+    }
+.contact__namber {
+    margin-bottom: 18px;
+   }
+   input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appearance: none;}
+   input[type='numbe'] {-moz-appearance: textfield;}
+.contact__textarea {
+    padding: 22px;
+    margin-bottom: 21px;
+    height: 195px;
+    resize: none;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #898888;
+    border: 1px solid #999999;
+}
+.contact__form .contact__button {
+    cursor: pointer;
+    padding: 0;
+    outline: n;
+    border: none;
+    background-color: #161616;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+}
+.footer {
+    padding-top: 154px;
+}
+.footer__text {
+    text-align: center;
+    font-family: "HelveticaNeueLTProLt", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #898888;
+}
+
 
 /*  
     git config -- global user.name "menykt"
