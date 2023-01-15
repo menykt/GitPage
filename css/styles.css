@@ -69,7 +69,10 @@
 }
 .menu__item:last-child a {
     margin-right: 0;
-}    
+} 
+.menu__mobile {
+    display: none;
+}
 .active a {
     color: #010101;
 }
@@ -86,7 +89,8 @@
     font-weight: 400;
     letter-spacing: 0.02em;
     color: #1d1e1f;
-    margin: 207px auto 4px;
+    margin: 0px auto 4px;
+    padding-top: 207px;
 }
 .header__text {
     font-family: "Merriweather-LightItalic", serif;
@@ -397,8 +401,115 @@
     letter-spacing: 0.02em;
     color: #898888;
 }
+/*media IPad mini*/
+@media screen and (max-width: 769px) {
+    .conteiner {
+        width: 768px;
+    }
+    .about {
+        height: auto;
+        padding-bottom: 200px;
+    }
+    .about__inner {
+        grid-template-columns: max-content;
+    }
+    .provide {
+        padding-bottom: 100px;
+    }
+    .team.block__title,
+    .provide.block__title {
+        padding-top: 100px;
+    }
+    .provide__inner {
 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .provide__item {
+        max-width: 300px;
+        margin: 0 20px 50px;
+    }
+    .contact__form {
+        max-width: 710px;
+        padding-top: 100px;
+    }
+    .footer {
+        padding-top: 30px;
+    }
+}
+/*media for IPhone SE*/
+@media screen and (max-width: 376px) {
+    .conteiner {
+        width: 374px;
+    }
+    .logo {
+        margin: 0 -15px;
+    }
+    .menu__desktop {
+        display: none;
+    }
+    .menu__mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu {
+        display: none;
+    }
+    .menu__burger {
+        cursor: pointer;
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        position: relative;
+    }
+    .menu__burger:after {
+        content: '';
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        bottom: -10px;
+    }
+    .menu__burger:before {
+        content: '';
+        width: 30px;
+        height: 3px;
+        background-color: #000;
+        position: absolute;
+        top: -10px;
+    }
+    .header__title {
+        padding-top: 100px;
+        margin-bottom: 30px;
+    }
+    .header__button {
+        margin-bottom: 100px;
+    }
+    .about__item {
+        max-width: 340px;
+    }
+    .team {
+        height: auto;
+        padding-bottom: 80px;
+    }
+    .team__inner {
+        padding-top: 100px;
+        flex-wrap: wrap;
+    }
+    .team__item {
+        width: 340px;
+    }
+    .contact__inner {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+    .provide__inner {
+        padding-top: 100px;
+    }
+    
 
+}
 /*  
     git config -- global user.name "menykt"
     git config -- global user.email menykt@gmail.com
